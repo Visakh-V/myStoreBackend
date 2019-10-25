@@ -16,7 +16,6 @@ namespace myStore.Entities
         }
 
         public virtual DbSet<Registration> Registration { get; set; }
-        public virtual DbSet<Users> Users { get; set; }
 
 //        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 //        {
@@ -42,18 +41,6 @@ namespace myStore.Entities
 
                 entity.Property(e => e.UserName)
                     .IsRequired()
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
-
-                entity.HasOne(d => d.Role)
-                    .WithMany(p => p.Registration)
-                    .HasForeignKey(d => d.RoleId)
-                    .HasConstraintName("fK_Users");
-            });
-
-            modelBuilder.Entity<Users>(entity =>
-            {
-                entity.Property(e => e.Role)
                     .HasMaxLength(50)
                     .IsUnicode(false);
             });

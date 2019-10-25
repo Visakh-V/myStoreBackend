@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Comp\\Desktop\\myStore-Back-end\\myStore\\myStore\\myStore.csproj": {}
+    "C:\\Users\\Comp\\Desktop\\myStore\\myStore-Back-end\\myStore\\myStore\\myStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Comp\\Desktop\\myStore-Back-end\\myStore\\myStore\\myStore.csproj": {
+    "C:\\Users\\Comp\\Desktop\\myStore\\myStore-Back-end\\myStore\\myStore\\myStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Comp\\Desktop\\myStore-Back-end\\myStore\\myStore\\myStore.csproj",
+        "projectUniqueName": "C:\\Users\\Comp\\Desktop\\myStore\\myStore-Back-end\\myStore\\myStore\\myStore.csproj",
         "projectName": "myStore",
-        "projectPath": "C:\\Users\\Comp\\Desktop\\myStore-Back-end\\myStore\\myStore\\myStore.csproj",
+        "projectPath": "C:\\Users\\Comp\\Desktop\\myStore\\myStore-Back-end\\myStore\\myStore\\myStore.csproj",
         "packagesPath": "C:\\Users\\Comp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Comp\\Desktop\\myStore-Back-end\\myStore\\myStore\\obj\\",
+        "outputPath": "C:\\Users\\Comp\\Desktop\\myStore\\myStore-Back-end\\myStore\\myStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Comp\\AppData\\Roaming\\NuGet\\NuGet.Config",

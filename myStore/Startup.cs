@@ -34,6 +34,7 @@ namespace myStore
         {
             services.AddControllers();
             services.AddScoped<ILoginService, LoginService>();
+            services.AddScoped<ISignupService, SignupService>();
             services.AddDbContext<myStoreContext>(options =>
         options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddCors(c =>
